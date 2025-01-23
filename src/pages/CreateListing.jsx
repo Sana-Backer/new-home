@@ -32,7 +32,6 @@ const CreateListing = () => {
             [name]: value
         })
     }
-    console.log(address);
     
 
     const [guestCount, setGuestCount] = useState(1)
@@ -49,7 +48,6 @@ const CreateListing = () => {
             setAmenities((prev) => [...prev, facility])
         }
     }
-    console.log(amenities);
     
 
     const handleUploadPhotos = (e) => {
